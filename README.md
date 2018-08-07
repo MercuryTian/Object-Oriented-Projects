@@ -1,14 +1,13 @@
-Object-Oriented-Projects
-
+# Object-Oriented-Projects
 This repository contains THREE main OO projects: Elevator, Uber Taxi and IFTTT.
 
-Elevator
+### Elevator
 
-This project designed a Multi-elevator Scheduling and Operating System.
+This project designed a **Multi-elevator Scheduling and Operating System**.
 
 To achieve different functions, the system can be divided into three phases.
 
-Simple Elevator
+##### Simple Elevator
 
 The first phase is a Simple Elevator. The detailed descriptions are shown below:
 
@@ -19,12 +18,12 @@ The first phase is a Simple Elevator. The detailed descriptions are shown below:
 
 Input Specifications:
 
-- Floor request: (FR, m, UP/DOWN, T). FR is a fixed signal, m is the requested floor number, UP and DOWN are direction requests, and T is the  time when the request appears.
-- Inside car request: (ER, n, T) .ER is a fixed signal, n is the requested floor number, and T is the  time when the request appears.
+- Floor request: `(FR, m, UP/DOWN, T)`. `FR` is a fixed signal, `m` is the requested floor number, `UP` and `DOWN` are direction requests, and `T` is the  time when the request appears.
+- Inside car request: `(ER, n, T)` .`ER` is a fixed signal, `n` is the requested floor number, and `T` is the  time when the request appears.
 
 Output Specifications:
 
-- (n, UP/DOWN, t) . n is floor number, UP and DOWN are direction that elevator heads for, and t is the operation time from the first request appears.
+- `(n, UP/DOWN, t)` . `n` is floor number, `UP` and `DOWN` are direction that elevator heads for, and `t` is the operation time from the first request appears.
 
 Class Contains:
 
@@ -35,9 +34,9 @@ Class Contains:
 - Request.java
 - RequestQueue.java
 
-Smart Elevator
+##### Smart Elevator
 
-The Smart Elevator is designed on the basis of Simple Elevator, which introducing extends mechanism to implement more functions.
+The Smart Elevator is designed on the basis of Simple Elevator, which introducing `extends` mechanism to implement more functions.
 
 Compared to the Simple Elevator, the Smart Elevator adds some basic descriptions:
 
@@ -47,7 +46,7 @@ Compared to the Simple Elevator, the Smart Elevator adds some basic descriptions
 - In order to improve the observability of the system state during the test, it is necessary to set the elevator to run on one floor for 3s and the opening&closing door process consumes 6s.
 - The Smart Elevator can respond requests passingly.
 
-Multi-elevator Scheduling and Operating System
+##### Multi-elevator Scheduling and Operating System
 
 The Multi-elevator System contains three elevators by implementing the Multithreading mechanism.
 
@@ -61,8 +60,8 @@ Class Contains:
 - RequestList.java
 - RequestMonitor
 
----
+------
 
-Uber Taxi
+### Uber Taxi
 
-IFTTT
+### IFTTT
